@@ -15,7 +15,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -23,7 +22,7 @@ import com.example.androiddevchallenge.R
 import java.util.*
 
 @Composable
-fun AdoptButton(text:String = "",height: Dp, onClick: () -> Unit) {
+fun AdoptButton(modifier: Modifier=Modifier,text:String = "",height: Dp, onClick: () -> Unit) {
     val shape = RoundedCornerShape(topStart = 16.dp, topEnd = 16.dp)
 
     Box(
@@ -32,7 +31,7 @@ fun AdoptButton(text:String = "",height: Dp, onClick: () -> Unit) {
             .height(height)
             .clip(shape)
             .clickable { onClick() }
-            .background(color = Color(0xff212121)), contentAlignment = Alignment.Center
+            .background(color = Color(0xff212121)).then(modifier), contentAlignment = Alignment.Center
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically
@@ -52,10 +51,4 @@ fun AdoptButton(text:String = "",height: Dp, onClick: () -> Unit) {
             )
         }
     }
-}
-
-@Preview
-@Composable
-fun AdoptButtonPreview() {
-    AdoptButton("Adopt",48.dp, {})
 }
