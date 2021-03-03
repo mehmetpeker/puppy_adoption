@@ -3,7 +3,12 @@ package com.example.androiddevchallenge.ui.components
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
@@ -19,10 +24,9 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.androiddevchallenge.R
-import java.util.*
 
 @Composable
-fun AdoptButton(modifier: Modifier=Modifier,text:String = "",height: Dp, onClick: () -> Unit) {
+fun AdoptButton(modifier: Modifier = Modifier, text: String = "", height: Dp, onClick: () -> Unit) {
     val shape = RoundedCornerShape(topStart = 16.dp, topEnd = 16.dp)
 
     Box(
@@ -31,7 +35,9 @@ fun AdoptButton(modifier: Modifier=Modifier,text:String = "",height: Dp, onClick
             .height(height)
             .clip(shape)
             .clickable { onClick() }
-            .background(color = Color(0xff212121)).then(modifier), contentAlignment = Alignment.Center
+            .background(color = Color(0xff212121))
+            .then(modifier),
+        contentAlignment = Alignment.Center
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically
@@ -44,7 +50,7 @@ fun AdoptButton(modifier: Modifier=Modifier,text:String = "",height: Dp, onClick
             }
             Spacer(modifier = Modifier.width(8.dp))
             Text(
-                text.toUpperCase(Locale.ROOT),
+                text,
                 fontWeight = FontWeight.Bold,
                 fontSize = 22.sp,
                 color = Color.White
