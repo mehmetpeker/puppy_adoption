@@ -48,11 +48,12 @@ fun MyApp() {
         val navController = rememberNavController()
         NavHost(navController, startDestination = "puppy") {
             composable("puppy") { PuppyListScreen(navController) }
-            composable("puppyDetail/{puppyId}",
-                arguments = listOf(navArgument("puppyId") { type = NavType.IntType })) {
-                    PuppyDetail(navController,it.arguments?.getInt("puppyId"))
-                }
-
+            composable(
+                "puppyDetail/{puppyId}",
+                arguments = listOf(navArgument("puppyId") { type = NavType.IntType })
+            ) {
+                PuppyDetail(navController, it.arguments?.getInt("puppyId"))
+            }
         }
     }
 }

@@ -1,3 +1,18 @@
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.example.androiddevchallenge.data
 
 enum class Gender {
@@ -23,8 +38,8 @@ val puppies = listOf(
         age = 1,
         gender = Gender.MALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 1,
@@ -34,8 +49,8 @@ val puppies = listOf(
         age = 1,
         gender = Gender.FEMALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 2,
@@ -45,8 +60,8 @@ val puppies = listOf(
         age = 2,
         gender = Gender.FEMALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 3,
@@ -56,8 +71,8 @@ val puppies = listOf(
         age = 1,
         gender = Gender.MALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 4,
@@ -67,8 +82,8 @@ val puppies = listOf(
         age = 1,
         gender = Gender.FEMALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 5,
@@ -78,8 +93,8 @@ val puppies = listOf(
         age = 1,
         gender = Gender.MALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 6,
@@ -89,8 +104,8 @@ val puppies = listOf(
         age = 1,
         gender = Gender.FEMALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 7,
@@ -100,8 +115,8 @@ val puppies = listOf(
         age = 2,
         gender = Gender.FEMALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 8,
@@ -111,8 +126,8 @@ val puppies = listOf(
         age = 1,
         gender = Gender.MALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
     Puppy(
         id = 9,
@@ -122,7 +137,7 @@ val puppies = listOf(
         age = 1,
         gender = Gender.FEMALE,
         detail = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet facilisis velit. Etiam nec mi interdum, malesuada enim a, pretium nunc. Maecenas fringilla massa ut quam volutpat facilisis. Maecenas eget pretium turpis, non aliquet ex. Suspendisse potenti. Suspendisse potenti. Ut erat nisl, facilisis porttitor magna id, aliquet viverra lorem. Proin sit amet pellentesque dui, quis feugiat eros. Proin ligula lectus, interdum et volutpat id, condimentum vel ex. Suspendisse sed molestie quam. Nulla vitae odio a sapien venenatis malesuada. Morbi dignissim orci nulla, a rutrum dolor scelerisque id. Integer pretium orci lacus, quis condimentum nisi congue ac.\n" +
-                "\n" +
-                "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+            "\n" +
+            "Praesent sollicitudin mi eleifend lectus sollicitudin dictum. Sed vestibulum, justo vitae maximus cursus, sem velit malesuada orci, quis imperdiet risus justo vitae metus. Integer hendrerit commodo pretium. Pellentesque tristique enim tellus, eu commodo eros elementum a. Cras eu nisi felis. Mauris ut bibendum velit. Sed dictum eros vel accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus."
     ),
 )

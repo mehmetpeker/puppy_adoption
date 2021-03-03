@@ -1,3 +1,18 @@
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.example.androiddevchallenge.ui.screen
 
 import androidx.compose.animation.core.animateDpAsState
@@ -104,7 +119,7 @@ fun PuppyCarouselItem(puppy: Puppy, isSelected: Boolean, onClick: () -> Unit) {
                     .fillMaxWidth()
                     .height(360.dp)
             )
-            PuppyInformation(puppy,true) { onClick() }
+            PuppyInformation(puppy, true) { onClick() }
         }
     }
 }
@@ -122,14 +137,16 @@ fun PuppyInformation(puppy: Puppy, isDetail: Boolean = false, onClick: () -> Uni
                 color = Color.Black,
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold
-            ), start = 0, end = puppy.name.length
+            ),
+            start = 0, end = puppy.name.length
         )
         addStyle(
             style = SpanStyle(
                 color = Color.Black,
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Normal
-            ), start = puppy.name.length + 1, end = this.length
+            ),
+            start = puppy.name.length + 1, end = this.length
         )
     }
     val shape = RoundedCornerShape(topStart = 16.dp, topEnd = 16.dp)
@@ -140,7 +157,9 @@ fun PuppyInformation(puppy: Puppy, isDetail: Boolean = false, onClick: () -> Uni
     ) {
         Column(
             Modifier
-                .fillMaxSize(), verticalArrangement = Arrangement.SpaceBetween, content = {
+                .fillMaxSize(),
+            verticalArrangement = Arrangement.SpaceBetween,
+            content = {
                 Box {
                     Column {
 
@@ -167,12 +186,7 @@ fun PuppyInformation(puppy: Puppy, isDetail: Boolean = false, onClick: () -> Uni
                     onClick = { onClick() },
                     text = if (isDetail) "VIEW DETAILS" else "Adopt Me"
                 )
-
-
             }
         )
-
     }
-
-
 }
